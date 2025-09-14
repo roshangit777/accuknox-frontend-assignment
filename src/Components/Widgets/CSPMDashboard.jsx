@@ -222,7 +222,7 @@ const CSPMDashboard = ({ searchTerm }) => {
 
             <h2 className="font-semibold mb-2">{item?.title}</h2>
             <div className="relative w-full felx items-center justify-start">
-              <ResponsiveContainer width="90%" height={200}>
+              <ResponsiveContainer width="100%" height={200}>
                 <PieChart>
                   <Pie
                     data={item?.data}
@@ -230,7 +230,7 @@ const CSPMDashboard = ({ searchTerm }) => {
                     innerRadius={60}
                     outerRadius={80}
                     paddingAngle={0}
-                    cx="40%"
+                    cx="42%"
                     cy="50%"
                   >
                     {item?.data.map((entry, index) => (
@@ -245,7 +245,7 @@ const CSPMDashboard = ({ searchTerm }) => {
                   />
                 </PieChart>
               </ResponsiveContainer>
-              <div className="absolute top-[40%] md:left-[20%] 2xl:left-[25%] flex items-center justify-center pointer-events-none">
+              <div className="absolute top-[40%] md:left-[24%] 2xl:left-[31%] flex items-center justify-center pointer-events-none">
                 <div className="text-center">
                   <div className="text-lg font-bold text-black">{total}</div>
                   <div className="text-sm text-gray-500">Total</div>
