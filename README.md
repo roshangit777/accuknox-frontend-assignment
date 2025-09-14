@@ -22,7 +22,7 @@ It allows users to dynamically manage widgets across multiple categories, with s
 
 ### Search Widgets
 
-![Add Widget](./screenshots/img3.png)
+![Add Widget](./screenshots/img5.png)
 
 ## 🚀 Features
 
