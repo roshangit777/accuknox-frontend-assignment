@@ -116,7 +116,7 @@ export const Datas = {
         hidden: false,
       },
       {
-        id: 2,
+        id: 3,
         title: "Ticket Chart 3",
         color: "teal",
         data: [
@@ -130,7 +130,7 @@ export const Datas = {
         hidden: false,
       },
       {
-        id: 2,
+        id: 4,
         title: "Ticket Chart 4",
         color: "black",
         data: [

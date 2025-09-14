@@ -38,7 +38,7 @@ const CWPPDashboard = ({ searchTerm }) => {
     const addNewCWPP = {
       type: "ADD_CWPP",
       payload: {
-        id: Math.floor(Math.random() * 10),
+        id: Math.floor(Math.random() * 1000),
         title: title,
         color: color,
         data: fields,

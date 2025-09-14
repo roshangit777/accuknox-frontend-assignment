@@ -29,7 +29,7 @@ const CSPMDashboard = ({ searchTerm }) => {
     const addNewCSPM = {
       type: "ADD_CSPM",
       payload: {
-        id: Math.floor(Math.random() * 10),
+        id: Math.floor(Math.random() * 1000),
         title: title,
         chartType: category,
         data: fields,

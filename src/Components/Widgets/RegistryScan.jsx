@@ -36,7 +36,7 @@ const RegistryScan = ({ searchTerm }) => {
     const addNewImage = {
       type: "ADD_IMAGE",
       payload: {
-        id: Math.floor(Math.random() * 10),
+        id: Math.floor(Math.random() * 1000),
         title: title,
         color: {
           critical: "darkred",

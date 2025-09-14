@@ -38,7 +38,7 @@ const Tickets = ({ searchTerm }) => {
     const addNewTicket = {
       type: "ADD_TICKET",
       payload: {
-        id: Math.floor(Math.random() * 10),
+        id: Math.floor(Math.random() * 1000),
         title: title,
         color: color,
         data: fields,
